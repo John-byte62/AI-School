@@ -26,4 +26,4 @@ keras>=2.2.4
 lmdb>=0.94
 moviepy>=0.2.3.5
 opencv-python>=3.4.0.12
-tensorflow-cpu==1.15.4
+tensorflow-cpu==1.15.0
