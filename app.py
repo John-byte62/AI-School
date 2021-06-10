@@ -18,11 +18,33 @@ TL_GAN_HASH_FUNCS = {
 }
 
 def main():
-    st.title("Streamlit Face-GAN Demo")
-    """This demo demonstrates  using [Nvidia's Progressive Growing of GANs](https://research.nvidia.com/publication/2017-10_Progressive-Growing-of) and 
-    Shaobo Guan's [Transparent Latent-space GAN method](https://blog.insightdatascience.com/generating-custom-photo-realistic-faces-using-ai-d170b1b59255) 
-    for tuning the output face's characteristics. For more information, check out the tutorial on [Towards Data Science](https://towardsdatascience.com/building-machine-learning-apps-with-streamlit-667cef3ff509)."""
+    
+    st.title("Welcome to the world of Programming & AI")
 
+    """
+    We are living in an era where we definitly must have heard about the term AI . And many a time we might have wondered 
+    what exactly is this AI . And why it is getting discussed now a days. Lets find out
+
+    As per the definition from Wikipedia , `Artificial intelligence (AI) is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals,
+    which involves consciousness and emotionality.` In the recent years capability of AI has progressed enormously and its effect can be seen in every field . Chatbots , Amazon Alexa,
+    Siri , Google Map , Robotics , Social Media , Airline industry are a small example where we can see the usage of AI.
+
+    But but but... What's the starting point of AI ? 
+
+    You might have guessed it right . It's programming . So what is programming ? Let us start. """
+
+    st.header('What is programming ?')
+    st.write('Programming is the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer programming languages, such as JavaScript, Python, and C++. And what is a programming language, it is just like a normal language , which we used to chat with computers. ')
+
+    st.header('Which programming language is the best ?')
+    st.write('Just as we in day to day life cannot choose , which spoken language is the best. Similarly in the world of computers, all the programming languages are beautiful.') 
+    
+    st.write('But as we are focused on understanding the working of AI , ``Python`` is the most preferred language for it. Why python ? , because it is relatively easy to understand and it has a huge array of applications.Python is more intuitive than other programming dialects. And with a great community support. (I promise ,you can find solution for any of your python related issues :) ) ')
+
+    st.subheader('Let deep dive into the world of Python. But before that lets play with an AI program , which can generate an imaginary image based on random values ')
+
+    st.subheader('On the LHS, you can play with the sliders . But beware, selecting some of the features may produce some bias. This AI program used , a neural network which is known as ``` Transparent Latent-space GAN method ``` for tuning the output face characteristics ') 
+    st.write('  ')
     # Download all data files if they aren't already in the working directory.
     for filename in EXTERNAL_DEPENDENCIES.keys():
         download_file(filename)
@@ -77,7 +99,7 @@ def main():
         image_out = generate_image(session, pg_gan_model, tl_gan_model,
                 features, feature_names)
 
-    st.image(image_out, use_column_width=True)
+    st.image(image_out, width=500, use_column_width=False)
 
 
 def download_file(file_path):
