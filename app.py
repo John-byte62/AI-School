@@ -22,8 +22,8 @@ def main():
     st.title("Welcome to the world of Programming & AI")
 
     """
-    We are living in an era where we definitly must have heard about the term AI . And many a time we might have wondered 
-    what exactly is this AI . And why it is getting discussed now a days. Lets find out
+    We are living in an era where we definitely must have heard about the term AI . And many a times we might have wondered 
+    what exactly is this AI . And why it is one of the most talked about topics in this era . Lets find out
 
     As per the definition from Wikipedia , `Artificial intelligence (AI) is intelligence demonstrated by machines, unlike the natural intelligence displayed by humans and animals,
     which involves consciousness and emotionality.` In the recent years capability of AI has progressed enormously and its effect can be seen in every field . Chatbots , Amazon Alexa,
