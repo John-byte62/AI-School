@@ -361,19 +361,12 @@ def main():
     st.write("2.How neural networks are not models of the brain but are instead computational models for solving complex machine learning problems.")
     st.write("3.The neural networks are comprised of neurons that have weights and activation functions.")
     st.write("4.The networks are organized into layers of neurons and are trained using stochastic gradient descent.Moreover it is a good idea to prepare your data before training a neural network model.")
-    st.write("***The field of AI , Machine Learning , Data Science is very vast, but they are one of the most interesting field in today's era. I hope you all will try to deep dive into this field and will make the best out of it ***")
-    st.write("Do you have any questions about neural networks or about this post? You can connect with me using below mentioned links and I will do my best to answer it. **Stay Safe , Stay Healthy , Stay Strong !!** ")
-    
-    st.write("##### Fiver profile: https://www.fiverr.com/riteshsingh545")
-    st.write("##### Upwork profile: https://www.upwork.com/freelancers/~01825a78e7bea22084")
-    st.write("##### LinkedIn profile: https://www.linkedin.com/in/ritesh-singh-6619ab190/")
+    st.write("***The field of AI , Machine Learning , Data Science is very vast, but they are one of the most interesting field in today's era. I hope you all will try to deep dive into this field and will make the best out of it. Stay Safe , Stay Healthy , Stay Strong !! ***")
+  
     st.write("")
     st.write("")
     st.write("")
     st.image(Image.open('end.jpg'),width=800,use_column_width=False)
-
-    
-    
 
         
 def download_file(file_path):
