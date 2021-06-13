@@ -5,6 +5,7 @@ import streamlit as st
 import sys
 import tensorflow as tf
 import urllib
+from PIL import Image
 
 sys.path.append('tl_gan')
 sys.path.append('pg_gan')
@@ -135,7 +136,7 @@ def main():
         st.write('In Python, keywords are case sensitive.')
         st.write('There are 33 keywords in Python 3.7. This number can vary slightly over the course of time.')
         st.write('All the keywords except **True, False and None** are in lowercase and they must be written as they are. The list of all the keywords is given below.')
-        st.image('keywords.jpg',width=650,use_column_width=False)
+        st.image(Image.open('keywords.jpg'),width=650,use_column_width=False)
         st.write('Looking at all the keywords at once and trying to figure out what they mean might be overwhelming. So let us ignore it for some moment and let us focus on that we cannot use these names as any other identifier')
         st.subheader('Python Identifiers')
         st.write('An identifier is a name given to entities like class, functions, variables, etc. It helps to differentiate one entity from another.')
@@ -177,7 +178,7 @@ def main():
         st.write("")
         st.write('**Python List**')
         st.write("List is an ordered sequence of items. It is one of the most used datatype in Python and is very flexible. All the items in a list do not need to be of the same type. Declaring a list is pretty straight forward. Items separated by commas are enclosed within brackets [ ]. Example **a = [1, 2.2, 'python']**.We can use the slicing operator [ ] to extract an item or a range of items from a list. The index starts from 0 in Python.")
-        st.image('list.jpg',width=500,use_column_width=False)
+        st.image(Image.open('list.jpg'),width=500,use_column_width=False)
         st.write('Lists are mutable, meaning, the value of elements of a list can be altered.')
         st.write("")
         st.write('**Python Tuple**')
