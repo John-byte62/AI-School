@@ -371,7 +371,6 @@ def main():
     st.write("")
     st.write("")
     st.image(Image.open('end.jpg'),width=800,use_column_width=False)
-    st.write("**----------------------------------------------------------END----------------------------------------------------------**")
 
     
     
